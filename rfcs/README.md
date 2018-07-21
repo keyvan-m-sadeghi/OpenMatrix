@@ -1,11 +1,15 @@
 # OpenMatrix RFCs
 [OpenMatrix RFCs]: #openmatrix-rfcs
 
-Many changes, including bug fixes and documentation improvements can be implemented and reviewed via the normal GitHub pull request workflow.
+Many changes, including bug fixes and documentation improvements can be
+implemented and reviewed via the normal GitHub pull request workflow.
 
-Some changes though are "substantial", and we ask that these be put through a bit of a design process and produce a consensus among the community.
+Some changes though are "substantial", and we ask that these be put through
+a bit of a design process and produce a consensus among the community.
 
-The "RFC" (request for comments) process is intended to provide a consistent and controlled path for new features to enter the project, so that all stakeholders can be confident about the direction the project is evolving in.
+The "RFC" (request for comments) process is intended to provide a consistent
+and controlled path for new features to enter the project, so that all
+stakeholders can be confident about the direction the project is evolving in.
 
 
 ## What the process is
@@ -16,9 +20,10 @@ merged into the RFC repository as a markdown file. At that point the RFC is
 "active" and may be implemented with the goal of eventual inclusion into Rust.
 
 
-  - Fork the OpenMatrix [repository](https://github.com/PsychoMinions/OpenMatrix).
-  - Copy `rfcs/template.md` to `rfcs/my-feature/README.md` (where "my-feature" is
-    a descriptive name).
+  - Fork the OpenMatrix
+    [repository](https://github.com/PsychoMinions/OpenMatrix).
+  - Copy `rfcs/template.md` to `rfcs/my-feature/README.md` (where "my-feature"
+    is a descriptive name).
   - Put any accompanying resources (pictures, etc.) in `rfcs/my-feature/`, you
     can refer to these in the text.
   - Fill in the RFC. Put care into the details: RFCs that do not present
@@ -54,9 +59,14 @@ merged into the RFC repository as a markdown file. At that point the RFC is
   - In most cases, the FCP period is quiet, and the RFC is either merged or
     closed. However, sometimes substantial new arguments or ideas are raised,
     the FCP is canceled, and the RFC goes back into development mode.
+  - Once "active", the RFC should be listed on the table in the next section.
+    "Champions" are the people directly responsible for following RFC's
+    implementation, not necessarily the author(s) and the go-to person for any
+    questions regarding the RFC.
 
 ## Chronological list of RFCs
+[Chronological list of RFCs]: #openmatrix-rfc-list
 
-| Date       | Title                    | Champion           | Active | Tests |
+| Date       | Title                    | Champions          | Active | Tests |
 | ---------- | ------------------------ | ------------------ | ------ | ----- |
 | 2018-07-22 | [OpenMatrix - The concept](https://github.com/PsychoMinions/OpenMatrix/blob/master/rfcs/openmatrix-conception) | [keyvan-m-sadeghi](https://github.com/keyvan-m-sadeghi) | :heavy_check_mark: | |
