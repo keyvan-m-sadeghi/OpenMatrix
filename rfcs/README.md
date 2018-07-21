@@ -16,7 +16,7 @@ merged into the RFC repository as a markdown file. At that point the RFC is
 "active" and may be implemented with the goal of eventual inclusion into Rust.
 
 
-  - Fork the OpenMatrix [repository](https://github.com/PsychoMinions/OpenMatrix)
+  - Fork the OpenMatrix [repository](https://github.com/PsychoMinions/OpenMatrix).
   - Copy `rfcs/template.md` to `rfcs/my-feature/README.md` (where "my-feature" is
     a descriptive name).
   - Put any accompanying resources (pictures, etc.) in `rfcs/my-feature/`, you
@@ -59,4 +59,4 @@ merged into the RFC repository as a markdown file. At that point the RFC is
 
 | Date       | Title                    | Champion           | Active | Tests |
 | ---------- | ------------------------ | ------------------ | ------ | ----- |
-| 2018-07-22 | [OpenMatrix - The concept](https://github.com/PsychoMinions/OpenMatrix/blob/master/rfcs/openmatrix-conception) | [keyvan-m-sadeghi](https://github.com/keyvan-m-sadeghi) | - [ ] | - [ ] |
+| 2018-07-22 | [OpenMatrix - The concept](https://github.com/PsychoMinions/OpenMatrix/blob/master/rfcs/openmatrix-conception) | [keyvan-m-sadeghi](https://github.com/keyvan-m-sadeghi) | :heavy_check_mark: | |
