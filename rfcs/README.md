@@ -15,9 +15,9 @@ stakeholders can be confident about the direction the project is evolving in.
 ## What the process is
 [What the process is]: #what-the-process-is
 
-In short, to get a major feature added to Rust, one must first get the RFC
-merged into the RFC repository as a markdown file. At that point the RFC is
-"active" and may be implemented with the goal of eventual inclusion into Rust.
+In short, to get a major feature added to the project, one must first get the RFC
+merged into the repository as a markdown file. At that point the RFC is
+"active" and may be implemented with the goal of eventual inclusion.
 
 
   - Fork the OpenMatrix
