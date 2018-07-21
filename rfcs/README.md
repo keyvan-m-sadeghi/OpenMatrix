@@ -67,6 +67,6 @@ merged into the RFC repository as a markdown file. At that point the RFC is
 ## Chronological list of RFCs
 [Chronological list of RFCs]: #openmatrix-rfc-list
 
-| Date       | Title                    | Champions          | Active | Tests |
-| ---------- | ------------------------ | ------------------ | ------ | ----- |
-| 2018-07-22 | [OpenMatrix - The concept](https://github.com/PsychoMinions/OpenMatrix/blob/master/rfcs/openmatrix-conception) | [keyvan-m-sadeghi](https://github.com/keyvan-m-sadeghi) | :heavy_check_mark: | |
+| Date       | Title                    | Champions   | Active | Tests | Docs |
+| ---------- | ------------------------ | ----------- | ------ | ----- | ---- |
+| 2018-07-22 | [OpenMatrix - The concept](https://github.com/PsychoMinions/OpenMatrix/blob/master/rfcs/openmatrix-conception) | [keyvan-m-sadeghi](https://github.com/keyvan-m-sadeghi) | :heavy_check_mark: | | |
