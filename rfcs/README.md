@@ -61,8 +61,8 @@ merged into the RFC repository as a markdown file. At that point the RFC is
     the FCP is canceled, and the RFC goes back into development mode.
   - Once "active", the RFC should be listed on the table in the next section.
     "Champions" are the people directly responsible for following RFC's
-    implementation, not necessarily the author(s) and the go-to person for any
-    questions regarding the RFC.
+    implementation and the go-to person for any questions regarding the RFC,
+    not necessarily the author(s) .
 
 ## Chronological list of RFCs
 [Chronological list of RFCs]: #openmatrix-rfc-list
