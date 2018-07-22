@@ -1,4 +1,4 @@
-- Feature Title: (fill me in with a descriptive sentence, no longer than 70 characters, e.g. My awesome feature)
+- Feature Title: (fill me in with a descriptive sentence, no longer than 60 characters, e.g. My awesome feature)
 - Start Date: (fill me in with today's date, YYYY-MM-DD)
 - RFC PR: (leave this empty)
 - Related Issues: (fill me by referencing any corresponding issues, separate by commas, leve this empty if there are none)
