@@ -22,8 +22,9 @@ merged into the repository as a markdown file. At that point the RFC is
 
   - Fork the OpenMatrix
     [repository](https://github.com/PsychoMinions/OpenMatrix).
-  - Copy `rfcs/template.md` to `rfcs/my-feature/README.md` (where "my-feature"
-    is a descriptive name).
+  - Copy [`rfcs/template.md`](
+    https://github.com/PsychoMinions/OpenMatrix/blob/master/rfcs/template.md)
+    to `rfcs/my-feature/README.md` (where "my-feature" is a descriptive name).
   - Put any accompanying resources (pictures, etc.) in `rfcs/my-feature/`, you
     can refer to these in the text.
   - Fill in the RFC. Put care into the details: RFCs that do not present
