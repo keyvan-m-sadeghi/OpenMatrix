@@ -11,7 +11,6 @@ The "RFC" (request for comments) process is intended to provide a consistent
 and controlled path for new features to enter the project, so that all
 stakeholders can be confident about the direction the project is evolving in.
 
-
 ## What the process is
 [What the process is]: #what-the-process-is
 
@@ -19,55 +18,69 @@ In short, to get a major feature added to the project, one must first get the RF
 merged into the repository as a markdown file. At that point the RFC is
 "active" and may be implemented with the goal of eventual inclusion.
 
+- Create an issue on the OpenMatrix
+  [repository](https://github.com/PsychoMinions/OpenMatrix), this would be
+  the "Master Issue" corresponding to the feature you are proposing.
+  - List the requirements that the feature would be addressing. Reference any
+    previous relating issues in master issue's body or comments. Some
+    preliminary discussion will likely take place within the master issue.
+  - Alternatively, you can select an existing issue as the master issue for the
+    feature.
+- Fork the OpenMatrix repository.
+- Copy [`rfcs/template.md`](
+  https://github.com/PsychoMinions/OpenMatrix/blob/master/rfcs/template.md)
+  to `rfcs/text/my-feature/README.md` (where "my-feature" is a descriptive
+  short name for the feature).
+- Put any accompanying resources (pictures, etc.) in `rfcs/text/my-feature/`,
+  you can refer to these in the text.
+- Fill in the RFC. Put care into the details: RFCs that do not present
+  convincing motivation, demonstrate understanding of the impact of the
+  design, or are disingenuous about the drawbacks or alternatives tend to be
+  poorly-received.
+- Submit a pull request. As a pull request the RFC will receive design
+  feedback from the larger community, and the author should be prepared to
+  revise it in response.  
+- Build consensus and integrate feedback. RFCs that have broad support are
+  much more likely to make progress than those that don't receive any
+  comments. Feel free to reach out to the RFC assignee in particular to get
+  help identifying stakeholders and obstacles.
+- The community will discuss the RFC pull request, as much as possible in the
+  comment thread of the pull request itself. Offline discussion will be
+  summarized on the pull request comment thread.
+- RFCs rarely go through this process unchanged, especially as alternatives
+  and drawbacks are shown. You can make edits, big and small, to the RFC to
+  clarify or change the design, but make changes as new commits to the pull
+  request, and leave a comment on the pull request explaining your changes.
+  Specifically, do not squash or rebase commits after they are visible on the
+  pull request.
+- At some point, a member will propose a "motion for final comment period"
+  (FCP), along with a *disposition* for the RFC (merge, close, or postpone).
+  - For RFCs with lengthy discussion, the motion to FCP is usually preceded by
+    a *summary comment* trying to lay out the current state of the discussion
+    and major tradeoffs/points of disagreement.
+- The FCP lasts ten calendar days, so that it is open for at least 5 business
+  days. This way all
+  stakeholders have a chance to lodge any final objections before a decision
+  is reached.
+- In most cases, the FCP period is quiet, and the RFC is either merged or
+  closed. However, sometimes substantial new arguments or ideas are raised,
+  the FCP is canceled, and the RFC goes back into development mode.
+- Once active, the RFC is listed on the "RFC table" (next section).
+- Following the implementation and inclusion, the master issue will be closed
+  and the version number that contains the feature is put on the RFC table.
 
-  - Fork the OpenMatrix
-    [repository](https://github.com/PsychoMinions/OpenMatrix).
-  - Copy [`rfcs/template.md`](
-    https://github.com/PsychoMinions/OpenMatrix/blob/master/rfcs/template.md)
-    to `rfcs/my-feature/README.md` (where "my-feature" is a descriptive name).
-  - Put any accompanying resources (pictures, etc.) in `rfcs/my-feature/`, you
-    can refer to these in the text.
-  - Fill in the RFC. Put care into the details: RFCs that do not present
-    convincing motivation, demonstrate understanding of the impact of the
-    design, or are disingenuous about the drawbacks or alternatives tend to be
-    poorly-received.
-  - Submit a pull request. As a pull request the RFC will receive design
-    feedback from the larger community, and the author should be prepared to
-    revise it in response.  
-  - Build consensus and integrate feedback. RFCs that have broad support are
-    much more likely to make progress than those that don't receive any
-    comments. Feel free to reach out to the RFC assignee in particular to get
-    help identifying stakeholders and obstacles.
-  - The community will discuss the RFC pull request, as much as possible in the
-    comment thread of the pull request itself. Offline discussion will be
-    summarized on the pull request comment thread.
-  - RFCs rarely go through this process unchanged, especially as alternatives
-    and drawbacks are shown. You can make edits, big and small, to the RFC to
-    clarify or change the design, but make changes as new commits to the pull
-    request, and leave a comment on the pull request explaining your changes.
-    Specifically, do not squash or rebase commits after they are visible on the
-    pull request.
-  - At some point, a member of the subteam will propose a "motion for final
-    comment period" (FCP), along with a *disposition* for the RFC (merge, close,
-    or postpone).
-    - For RFCs with lengthy discussion, the motion to FCP is usually preceded by
-      a *summary comment* trying to lay out the current state of the discussion
-      and major tradeoffs/points of disagreement.
-  - The FCP lasts ten calendar days, so that it is open for at least 5 business
-    days. This way all
-    stakeholders have a chance to lodge any final objections before a decision
-    is reached.
-  - In most cases, the FCP period is quiet, and the RFC is either merged or
-    closed. However, sometimes substantial new arguments or ideas are raised,
-    the FCP is canceled, and the RFC goes back into development mode.
-  - Once "active", the RFC should be listed on the table in the next section.
-    "Champions" are the people directly responsible for following RFC's
-    implementation and the go-to person for any questions regarding the RFC,
-    not necessarily the author(s) .
+## RFC table
+[RFC table]: #rfc-table
 
-## Chronological list of RFCs
-[Chronological list of RFCs]: #openmatrix-rfc-list
+This table lists the OpenMatrix RFCs in chronological order. "Champions" are
+the people directly responsible for following on RFC's implementation. Most
+likely the the authors themselves. "Docs" and "Tests" will get a
+:heavy_check_mark: when they are created.
 
-| Date       | Title                    | Champions   | Active | Tests | Docs |
-| ---------- | ------------------------ | ----------- | ------ | ----- | ---- |
-| 2018-07-22 | [OpenMatrix - The concept](https://github.com/PsychoMinions/OpenMatrix/blob/master/rfcs/openmatrix-conception) | [keyvan-m-sadeghi](https://github.com/keyvan-m-sadeghi) | :heavy_check_mark: | | |
+[keyvan-m-sadeghi]: https://github.com/keyvan-m-sadeghi
+[rekino]: https://github.com/rekino
+[farhoud]: https://github.com/farhoud
+
+| Date       | Title       | Authors | Champions | Tests | Docs | Included in |
+| ---------- | ----------- | ------- | --------- | ----- | ---- | ----------- |
+| 2018-07-22 | [OpenMatrix - The concept](https://github.com/PsychoMinions/OpenMatrix/blob/master/rfcs/text/openmatrix-conception) | [keyvan-m-sadeghi] | [rekino], [farhoud] | | | |

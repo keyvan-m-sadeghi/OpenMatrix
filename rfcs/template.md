@@ -1,28 +1,29 @@
-- Feature Title: (fill me in with a descriptive sentence, no longer than 60 characters, e.g. My awesome feature)
-- Start Date: (fill me in with today's date, YYYY-MM-DD)
-- RFC PR: (leave this empty)
-- Related Issues: (fill me by referencing any corresponding issues, separate by commas, leve this empty if there are none)
+# (fill me in with a descriptive title, no longer than 60 characters, e.g. My awesome feature)
 
-# Summary
+- Start Date: (fill me in with today's date, YYYY-MM-DD)
+- Master Issue: (fill me in by referencing the corresponding master issue)
+- RFC PR: (leave this empty)
+
+## Summary
 [summary]: #summary
 
 One paragraph explanation of the feature.
 
-# Motivation
+## Motivation
 [motivation]: #motivation
 
 Why are we doing this? What use cases does it support? What is the expected outcome?
 
-# Guide-level explanation
+## Guide-level explanation
 [guide-level-explanation]: #guide-level-explanation
 
 Explain the proposal as if it was already included and you were teaching it to someone else. That generally means:
 
 - Introducing new named concepts.
 - Explaining the feature largely in terms of examples.
-- Explaining how userss should *think* about the feature, and how it should impact the way they use OpenMatrix. It should explain the impact as concretely as possible.
+- Explaining how users should *think* about the feature, and how it should impact the way they use OpenMatrix. It should explain the impact as concretely as possible.
 
-# Reference-level explanation
+## Reference-level explanation
 [reference-level-explanation]: #reference-level-explanation
 
 This is the technical portion of the RFC. Explain the design in sufficient detail that:
@@ -33,19 +34,19 @@ This is the technical portion of the RFC. Explain the design in sufficient detai
 
 The section should return to the examples given in the previous section, and explain more fully how the detailed proposal makes those examples work.
 
-# Drawbacks
+## Drawbacks
 [drawbacks]: #drawbacks
 
 Why should we *not* do this?
 
-# Rationale and alternatives
+## Rationale and alternatives
 [rationale-and-alternatives]: #rationale-and-alternatives
 
 - Why is this design the best in the space of possible designs?
 - What other designs have been considered and what is the rationale for not choosing them?
 - What is the impact of not doing this?
 
-# Prior art
+## Prior art
 [prior-art]: #prior-art
 
 Discuss prior art, both the good and the bad, in relation to this proposal.
@@ -54,7 +55,7 @@ This section is intended to encourage you as an author to think about the lesson
 
 If there is no prior art, that is fine - your ideas are interesting to us whether they are brand new or if it is an adaptation from other projects.
 
-# Unresolved questions
+## Unresolved questions
 [unresolved-questions]: #unresolved-questions
 
 - What parts of the design do you expect to resolve through the RFC process before this gets merged?
