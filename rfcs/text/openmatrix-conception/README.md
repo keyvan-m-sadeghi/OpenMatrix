@@ -2,7 +2,7 @@
 
 - Start Date: 2018-07-22
 - Master Issue: [#3](https://github.com/PsychoMinions/OpenMatrix/issues/3)
-- RFC PR:
+- RFC PR: [#4](https://github.com/PsychoMinions/OpenMatrix/pull/4)
 
 ## Summary
 [summary]: #summary
